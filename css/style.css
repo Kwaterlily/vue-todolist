@@ -1,0 +1,176 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #454952;
+}
+
+body {
+    background-color: #f5f8f9;
+}
+
+
+/* header */
+
+header {
+    height: 100px;
+    background-size: 28%;
+    background-color: white;
+    margin-left: 5px;
+    position: relative;    
+}
+
+header  img {
+    vertical-align: middle;
+    width: 66px;
+    float: left;
+    margin: 25px 0 0 20px;
+}
+
+h1 {
+    padding: 30px;
+    font-size: 48px;
+    margin: -20px 0 0 -9px;
+    color: black;
+}
+/* /header */
+
+
+/* nav */
+
+nav {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 8px;
+    border-bottom: solid 2px #f5f8f9;
+    padding-top: 15px;
+    padding-left: 60px;
+    border-radius: 10px 10px 0 0;
+}
+
+button {
+    background-color: white;
+    border-radius: 7px;
+    color: lightgrey;
+    padding: 7px 13px;
+    border: solid;
+}
+
+#Add-Task {
+    background-color: #46ADF1;
+    padding: 7px 13px;
+    border: solid #46ADF1;
+    color: white;
+}
+/* /nav */
+
+
+.container {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+    margin-top: 0px;
+    padding: 40px;
+    padding-left: 60px;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+
+/* List */
+
+li > ul {
+    font-size: 19px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 20px;
+    padding-right: 10px;
+    list-style-type: none;
+}
+/* /List */
+
+
+/*checklist*/
+
+.bullet {
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #63c0a9;
+    line-height: 20px;
+    margin-right: 10px;
+    color: #63c0a9;
+    width: 22px;
+    height: 22px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.bullet.red {
+    color:#F0726A;
+    border-color: #F0726A;
+}
+/*checklist*/
+
+
+/* Etichette */
+
+.Button {
+    background-color: #46adf1;
+    color: white;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 7px 13px;
+}
+
+#Q1-Gonis {
+    background-color: #9C72E4;
+    color: white;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 7px 13px;
+} 
+
+#Recruiting {
+    background-color: #63c0a9;
+    color: white;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 7px 13px;
+}
+
+#Mobile {
+    background-color: #F29E33;
+    color: white;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 7px 13px;
+}
+
+#Sales {
+    background-color: #B0C925;
+    color: white;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 7px 13px;
+}
+
+#Website {
+    background-color: #D763A1;
+    color: white;
+    font-size: 10px;
+    border-radius: 15px;
+    padding: 7px 13px;
+}
+/* /Etichette */
+
+
