@@ -10,39 +10,12 @@ const elenco = new Vue({
              { text: "Fare la spesa", done: false}, 
              { text: "Declinare offertea della N.a.s.a.", done: false}, 
              { text: "Comprare bottiglia di vino per la cena con Roger Waters e Anna", done: true},        
-    ]
- }
-})
-
-
-
-
-
-
-
-
-
-
-
-
-// var root = new  Vue({
-//     el: '#container', 
-//     data: {
-//         messaggio: 'Ciao, come stai?',
-//         imggatto:'https://www.gattodiario.com/wp-content/uploads/2019/06/migio-gatto-rosso-su-due-zampe-saluta-e-se-ne-va.jpg',
-//         miaClasse: 'nonSiVede',
-//     },
-//     methods: {
-//         risposta: function () {
-//             console.log('bene, grazie ');
-//         },
-//         cambioClasse: function () {
-//             if(this.miaClasse ==='nonSiVede') {
-//                 this.miaClasse = 'siVede'
-//             }   else {
-//                     this.miaClasse = 'nonSiVede';
-//                 }
-
-//         }
-//     },
-// });
+        ],
+    }, 
+    methods: {
+        aggiungi () {
+            const newTasck = { text: "", done: false }; 
+            this.elenco.push ("")
+        },
+    }
+  
