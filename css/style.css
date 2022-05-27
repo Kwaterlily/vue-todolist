@@ -43,29 +43,23 @@ h1 {
 
 nav {
     background-color: white;
-    width: 70%;
+    width: 100%;
     margin: auto;
     margin-top: 50px;
-    padding-bottom: 8px;
+    padding-bottom: 20px;
     border-bottom: solid 2px #f5f8f9;
     padding-top: 15px;
     padding-left: 60px;
     border-radius: 10px 10px 0 0;
 }
 
-button {
-    background-color: white;
-    border-radius: 7px;
-    color: lightgrey;
-    padding: 7px 13px;
-    border: solid;
-}
-
 #Add-Task {
     background-color: #46ADF1;
-    padding: 7px 13px;
+    padding: 10px 25px;
     border: solid #46ADF1;
     color: white;
+    margin-right: 50px;
+    border-radius: 10px;
 }
 /* /nav */
 
@@ -92,6 +86,18 @@ li > ul {
     list-style-type: none;
 }
 
+ul {
+    padding-top: 20px;
+    
+}
+
+#aggiungi {
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 100px;
+}
+
 li {
     margin-bottom: 20px;
     padding-right: 10px;
@@ -101,8 +107,11 @@ li {
 
 
 /*checklist*/
+.checklist {
+    text-decoration: line-through;
+}
 
-.bullet {
+/* .bullet {
     text-align: center;
     border-radius: 50%;
     border: 1px solid #63c0a9;
@@ -118,7 +127,7 @@ li {
 .bullet.red {
     color:#F0726A;
     border-color: #F0726A;
-}
+} */
 /*checklist*/
 
 
